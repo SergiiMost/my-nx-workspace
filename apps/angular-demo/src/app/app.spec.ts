@@ -9,7 +9,7 @@ describe('App', () => {
     }).compileComponents();
   });
 
-  it('should render title', () => {
+  it('should render title and more', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
